@@ -1,0 +1,23 @@
+{
+    "name": "kiryuhinal/tic-tac-toe",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kiryuhin AI",
+            "email": "eld.kiryukhin@gmail.com"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.15"
+    },
+    "bin": [
+        "bin/tic-tac-toe.php"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    }
+}
